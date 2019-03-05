@@ -1,0 +1,59 @@
+{
+  "code": 10001,
+  "productList": [
+    {
+      "id": "pro_001",
+      "url": "/images/cart_pro.png",
+      "price": 17.5,
+      "name":"6支装 日式清新软毛牙刷",
+      "size":"6只装（粉色*2+白色*2+黑色*2+蓝色*10",
+      "num":1,
+      "checked":true
+    },
+    {
+      "id": "pro_002",
+      "url": "/images/cart_pro.png",
+      "price": 175,
+      "name": "6支装 日式清新软毛牙刷",
+      "size": "灰色",
+      "num": 1,
+      "checked": true
+    },
+    {
+      "id": "pro_003",
+      "url": "/images/cart_pro.png",
+      "price": 17.5,
+      "name": "6支装 日式清新软毛牙刷",
+      "size": "6只装（粉色*2+白色*2+黑色*2）",
+      "num": 1,
+      "checked": true
+    },
+    {
+      "id": "pro_004",
+      "url": "/images/cart_pro.png",
+      "price": 17.5,
+      "name": "6支装 日式清新软毛牙刷",
+      "size": "6只装（粉色*2+白色*2+黑色*2）",
+      "num": 1,
+      "checked": true
+    },
+    {
+      "id": "pro_005",
+      "url": "/images/cart_pro.png",
+      "price": 17.5,
+      "name": "6支装 日式清新软毛牙刷",
+      "size": "6只装（粉色*2+白色*2+黑色*2）",
+      "num": 1,
+      "checked": true
+    },
+    {
+      "id": "pro_006",
+      "url": "/images/cart_pro.png",
+      "price": 17.5,
+      "name": "6支装 日式清新软毛牙刷",
+      "size": "6只装（粉色*2+白色*2+黑色*2）",
+      "num": 1,
+      "checked": true
+    }
+  ]
+}

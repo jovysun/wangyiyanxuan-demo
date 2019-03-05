@@ -1,0 +1,60 @@
+<view class='container'>
+
+  <view class='block'>
+    去换购
+  </view>
+
+  <view class='block'>
+    <view class='goods-list'>
+
+      <view class='goods-item' wx:for='{{productList}}' wx:key='{{item.id}}'>
+        <label class="checkbox">
+          <!-- <checkbox value="" checked="{{true}}" /> -->
+          <icon size='19' type='success' color='{{ item.checked ? "#ab2b2b" : "#cccccc"}}' data-index='{{index}}' bindtap='chooseItem' ></icon>
+        </label>
+
+        <view class='info-wrap'>
+          <view class='goods-pic'>
+            <image src='{{item.url}}'></image>
+          </view>
+
+          <view class='info'>
+            <text class='name'>{{item.name}}</text>
+            <view class='qty-select'>
+              <text>{{item.size}}</text>
+
+            </view>
+            <view class='info-bottom'>
+              <text class='price'>￥{{item.price}}</text>
+              <choose-num num='{{item.num}}' data-index='{{index}}' bindnumChange="numChange"></choose-num>
+              <!-- <view class='choose-num'>
+                <view class='drop {{item.num == 1 ? "disabled" : ""}}' data-index='{{index}}' bindtap='dropNum'>-</view>
+                <input class='num' type='number' value='{{item.num}}' data-index='{{index}}' bindblur='updateInputNum'></input>
+                <view class='plus' data-index='{{index}}' bindtap='addNum'>+</view>
+              </view> -->
+            </view>
+
+          </view>
+
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class='cart-bottom'>
+    <view class='section-left'>
+
+      <!-- <checkbox value="" checked="{{true}}" /> -->
+      <icon class="checkbox" size='19' type='success' color='{{ totalChecked ? "#ab2b2b" : "#cccccc"}}' bindtap='chooseAll'></icon>
+
+    <text class='choosed'>{{selectedNum > 0 ? ("已选("+selectedNum+")") : "全选"}}</text>
+    </view>
+    <view class='section-right'>
+      <text class='sum'>￥{{totalAmount}}</text>
+      <view class='btn' wx:if='{{selectedNum > 0}}'>下单</view>
+      <view class='btn disabled' wx:else='{{selectedNum > 0}}'>下单</view>
+    </view>
+    
+  </view>
+</view>

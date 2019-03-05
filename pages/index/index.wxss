@@ -1,0 +1,134 @@
+/**index.wxss**/
+
+.search-wrap {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.search-wrap .search-input {
+  margin: 20rpx 30rpx;
+  border: 1rpx solid #222;
+  height: 60rpx;
+  box-sizing: border-box;
+  border-radius: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(108, 108, 108);
+  font-size: 36rpx;
+}
+
+.search-wrap text {
+  padding-left: 10rpx;
+}
+
+.banner-wrap {
+  margin-top: 100rpx;
+  height: 300rpx;
+  background-color: #fff;
+}
+
+.banner-wrap .img-wrap {
+  display: flex;
+  justify-content: center;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  box-sizing: border-box;
+}
+
+.banner-wrap image {
+  width: 100%;
+}
+
+.main-wrap {
+  padding: 0 30rpx;
+}
+
+.service-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.service-wrap .service-item {
+  font-size: 24rpx;
+  padding: 20rpx 0;
+}
+
+.service-wrap image {
+  width: 24rpx;
+  height: 24rpx;
+  vertical-align: middle;
+}
+
+.service-wrap text {
+  vertical-align: middle;
+  padding-left: 10rpx;
+}
+
+.free-wrap {
+}
+
+
+
+.free-wrap .free-swiper {
+  width: 100%;
+}
+
+.free-wrap swiper {
+  height: 300rpx;
+}
+
+.free-wrap .free-swiper image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.free-wrap .img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.free-wrap .img-wrap {
+  position: relative;
+  font-size: 24rpx;
+  color: #b4282d;
+}
+.free-wrap .count{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: orange;
+  color: #fff;
+  padding: 2rpx 10rpx;
+  font-size: 20rpx;
+  border-radius: 6rpx;
+}
+
+.free-wrap .img-wrap text:last-child {
+  color: #888;
+  text-decoration: line-through;
+}
+
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product-list .product-item{
+  margin-bottom: 20rpx;
+}
+.product-list .product-item .pro-img{
+  width: 335rpx;
+  height: 335rpx;
+}
+.product-list .product-item .pro-img image{
+  width: 100%;
+  height: 100%;
+}

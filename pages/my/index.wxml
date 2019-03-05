@@ -1,0 +1,19 @@
+<wxs module="m1">
+  var isBottom = function(list, index, colNum) { 
+    var colNum = colNum || 3;
+    var rowNum = Math.ceil(list.length / colNum);
+    // wxml中不支持Math
+    return (rowNum-1) * colNum < (index+1);
+  } 
+  module.exports.isBottom = isBottom;
+</wxs>
+
+<view class='container'>
+  <view class='userinfo-wrap'></view>
+  <view class='my-list'>
+    <view class='my-item {{m1.isBottom(myList,index) ? "item-bottom" : ""}}' wx:for='{{myList}}' wx:key='{{item.id}}'>
+      <image src='{{item.icon}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>

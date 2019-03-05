@@ -1,0 +1,33 @@
+
+.choose-num {
+  display: flex;
+  flex-flow: row;
+  width: 200rpx;
+}
+
+.choose-num .drop {
+  flex: 1;
+  border-left: 1px solid #888;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+.choose-num .drop.disabled{
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.choose-num .plus {
+  flex: 1;
+  border-right: 1px solid #888;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+
+.choose-num .num {
+  flex: 1.5;
+  border: 1px solid #888;
+  text-align: center;
+}

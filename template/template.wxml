@@ -1,0 +1,13 @@
+<!--
+  titleTxt: string
+  hasMore: boolean
+-->
+<template name="blockTitle">
+  <view class='title-block'>
+    <text class='title-txt'>{{titleTxt}}</text>
+    <view class='more' wx:if='{{hasMore}}'>
+      <text>更多</text>
+      <image src='/assets/right_icon.png'></image>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,26 @@
+.category-wrap{
+  background-color: #fff;
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.category-nav-list{
+  border-right: 1rpx solid #888; 
+}
+.category-nav-item{
+  margin: 20rpx 0;
+  width: 160rpx;
+  text-align: center;
+  border-left: 2rpx solid transparent;
+}
+.category-nav-item.current{
+  color: #b4282d;
+  border-left: 2rpx solid #b4282d;
+}
+.category-products-wrap{
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+}

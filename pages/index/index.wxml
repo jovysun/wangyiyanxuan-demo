@@ -1,0 +1,106 @@
+<!--index.wxml-->
+<import src='../../template/template.wxml' />
+<view class='container'>
+  <view class='search-wrap'>
+    <navigator url="/pages/search/search">
+      <view class='search-input' bindtap='showSearch'>
+        <icon type='search' color='rgb(108, 108, 108)' size='36rpx'></icon>
+        <text>搜索商品, 共21065款好物</text>
+      </view>
+    </navigator>
+
+  </view>
+  <view class='banner-wrap'>
+    <swiper indicator-dots="true" autoplay='false' circular='true' previous-margin='20rpx' next-margin='20rpx'>
+      <swiper-item>
+        <view class='img-wrap'>
+          <image src="../../images/banner1.jpg" mode='widthFix'></image>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='img-wrap'>
+          <image src="../../images/banner2.jpg" mode='widthFix'></image>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='img-wrap'>
+          <image src="../../images/banner3.jpg" mode='widthFix'></image>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class='block'>
+    <view class='service-wrap'>
+      <view class='service-item'>
+        <image src='../../assets/minlogo.png'></image>
+        <text>网易自营品牌</text>
+      </view>
+      <view class='service-item'>
+        <image src='../../assets/minlogo.png'></image>
+        <text>网易自营品牌</text>
+      </view>
+      <view class='service-item'>
+        <image src='../../assets/minlogo.png'></image>
+        <text>网易自营品牌</text>
+      </view>
+    </view>
+
+    <view class='free-wrap'>
+      <template is="blockTitle" data="{{...blockTitleList[0]}}" />
+
+      <view class='free-swiper'>
+        <swiper indicator-dots="true" autoplay='false' circular='true'>
+          <swiper-item wx:for='{{tuanData}}' wx:if='{{idx % 3 == 0}}' wx:key='{{ item.id }}' wx:for-index='idx' wx:for-item='tuanItem'>
+            <view class='img-group'>
+              <view class='img-wrap' wx:for='{{[1,2,3]}}' wx:key='*this'>
+                <view class='count'>{{tuanData[idx + index].count}}人团</view>
+                <image src="{{tuanData[idx + index].url}}" mode='widthFix'></image>
+                <view class='price-wrap'>
+                  <text>拼团价</text>
+                  <text>{{tuanData[idx + index].price}}</text>
+                  <text>{{tuanData[idx + index].oldPrice}}</text>
+                </view>
+              </view>
+            </view>
+
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+
+  <view class='block'>
+    <template is="blockTitle" data="{{...blockTitleList[1]}}" />
+  </view>
+  <view class='block'>
+    <template is="blockTitle" data="{{...blockTitleList[2]}}" />
+  </view>
+  <view class='block'>
+    <template is="blockTitle" data="{{...blockTitleList[3]}}" />
+  </view>
+  <view class='block'>
+    <template is="blockTitle" data="{{...blockTitleList[4]}}" />
+  </view>
+  <view class='block'>
+    <view class='title-block'>
+      <text class='title-txt'>为你推荐</text>
+    </view>
+
+    <view class='product-list'>
+
+      <view class='product-item' wx:for='{{productList}}' wx:key='{{item.id}}'>
+        <view class='pro-img'>
+          <image src='{{ item.url }}'></image>
+        </view>
+        <view class='ad-txt'></view>
+        <view class='discount'></view>
+        <view class='name'></view>
+        <view class='price'>{{ item.price }}</view>
+        <view class='comment'></view>
+      </view>
+
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,89 @@
+{
+  "code": 10001,
+  "tuan": [
+    {
+      "id": "tuan_001",
+      "url": "/images/tuan1.jpg",
+      "price": "￥17.5",
+      "oldPrice": "￥39.9",
+      "count": 3
+    },
+    {
+      "id": "tuan_002",
+      "url": "/images/tuan2.png",
+      "price": "￥17.5",
+      "oldPrice": "￥39.9",
+      "count": 3
+    },
+    {
+      "id": "tuan_003",
+      "url": "/images/tuan3.png",
+      "price": "￥17.5",
+      "oldPrice": "￥39.9",
+      "count": 3
+    },
+    {
+      "id": "tuan_004",
+      "url": "/images/tuan4.png",
+      "price": "￥17.5",
+      "oldPrice": "￥39.9",
+      "count": 3
+    },
+    {
+      "id": "tuan_005",
+      "url": "/images/tuan5.png",
+      "price": "￥17.5",
+      "oldPrice": "￥39.9",
+      "count": 3
+    },
+    {
+      "id": "tuan_006",
+      "url": "/images/tuan6.png",
+      "price": "￥17.5",
+      "oldPrice": "￥39.9",
+      "count": 3
+    }
+  ],
+  "productList": [
+    {
+      "id":"pro_001",
+      "url":"/images/product.png",
+      "price":"￥17.5"
+    },
+    {
+      "id": "pro_002",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro_003",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro_004",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro_005",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro_006",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro_007",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro_008",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    }
+  ]
+}

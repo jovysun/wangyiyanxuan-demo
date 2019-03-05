@@ -1,0 +1,45 @@
+{
+  "code": 10001,
+  "productList": [
+    {
+      "id": "pro2_001",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_002",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_003",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_004",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_005",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_006",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_007",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    },
+    {
+      "id": "pro2_008",
+      "url": "/images/product.png",
+      "price": "￥17.5"
+    }
+  ]
+}

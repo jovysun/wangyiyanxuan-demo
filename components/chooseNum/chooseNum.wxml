@@ -1,0 +1,5 @@
+<view class='choose-num'>
+  <view class='drop {{num == 1 ? "disabled" : ""}}' bindtap='dropNum'>-</view>
+  <input class='num' type='number' value='{{num}}' bindblur='updateInputNum'></input>
+  <view class='plus' bindtap='addNum'>+</view>
+</view>

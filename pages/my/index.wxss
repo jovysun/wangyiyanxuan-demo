@@ -1,0 +1,32 @@
+.userinfo-wrap{
+  height: 300rpx;
+  background-color: orange;
+}
+.my-list{
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.my-list .my-item{
+  width: 33.33%;
+  padding: 60rpx 0;
+  display: flex;
+  flex-flow: column;  
+  align-items: center;
+  justify-content: center;
+  float: left;
+  border-right: 1px solid rgba(0,0,0,.15);
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  box-sizing: border-box;
+}
+.my-list .my-item:nth-of-type(3n){
+  border-right: none;
+}
+.my-list .my-item.item-bottom{
+  border-bottom: none;
+}
+
+.my-list .my-item image{
+  width: 50rpx;
+  height: 50rpx;
+}

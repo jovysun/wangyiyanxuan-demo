@@ -1,0 +1,35 @@
+/**app.wxss**/
+
+.container {
+  color: #222;
+  background-color: #f4f4f4;
+  font-size: 32rpx;
+}
+.block{
+  background-color: #fff;
+  padding: 0 30rpx;
+  margin-bottom: 20rpx;
+}
+
+
+.title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.title-block .title-txt {
+  font-size: 40rpx;
+}
+
+.title-block .more image {
+  width: 13rpx;
+  height: 23rpx;
+  margin-left: 10rpx;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

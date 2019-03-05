@@ -1,0 +1,45 @@
+{
+  "code":"10001",
+  "myList": [
+    {
+      "id":"my001",
+      "icon":"/assets/anquan_icon.jpg",
+      "name":"我的订单"
+    },
+    {
+      "id": "my002",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的拼团"
+    },
+    {
+      "id": "my003",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的砍价"
+    },
+    {
+      "id": "my004",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的拼团"
+    },
+    {
+      "id": "my005",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的砍价"
+    },
+    {
+      "id": "my006",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的拼团"
+    },
+    {
+      "id": "my007",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的砍价"
+    },
+    {
+      "id": "my008",
+      "icon": "/assets/anquan_icon.jpg",
+      "name": "我的砍价"
+    }
+  ]
+}

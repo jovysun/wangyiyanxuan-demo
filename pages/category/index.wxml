@@ -1,0 +1,21 @@
+<view class='container'>
+  <view class='category-wrap'>
+    <view class='category-nav-list'>
+      <view class='category-nav-item {{ index == curIndex ? "current" : "" }}' wx:for='{{ menu }}' wx:key='{{ item.id }}' data-index='{{ index }}' bindtap='changeCategory'>{{ item.name }}</view>
+    </view>
+
+    <view class='category-products-wrap'>
+      <view class='category-banner'>
+        <image src='{{ categoryDetail.banner }}'></image>
+      </view>
+      <view class='sub-category-wrap'>
+        <view class='sub-category' wx:for='{{categoryDetail.productList}}' wx:key='{{ index }}'>    
+          <image src='{{item.thumb}}'></image>
+          <text>{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>
